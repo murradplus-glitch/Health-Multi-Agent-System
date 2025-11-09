@@ -1,0 +1,35 @@
+{
+  "sehat_card": {
+    "income_monthly_threshold": 60000,
+    "poverty_score_threshold": 30,
+    "required_documents": [
+      "Valid CNIC",
+      "Household registration",
+      "Proof of income"
+    ]
+  },
+  "basic_schemes": [
+    {
+      "name": "Maternal Care Package",
+      "criteria": {
+        "pregnant": true,
+        "income_monthly_max": 80000
+      },
+      "benefits": [
+        "Antenatal visits",
+        "Delivery coverage at BHU or district hospital"
+      ]
+    },
+    {
+      "name": "Chronic Disease Follow-up",
+      "criteria": {
+        "conditions": ["diabetes", "hypertension"],
+        "registered_with_bhu": true
+      },
+      "benefits": [
+        "Quarterly specialist consultation",
+        "Discounted medicines"
+      ]
+    }
+  ]
+}

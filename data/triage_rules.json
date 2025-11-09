@@ -1,0 +1,38 @@
+[
+  {
+    "keywords": ["chest pain", "shortness of breath", "sweating"],
+    "severity": "emergency",
+    "reasons": [
+      "Chest pain with shortness of breath may indicate acute coronary syndrome.",
+      "Immediate transfer to emergency services is recommended."
+    ],
+    "advice": "Call emergency services immediately or proceed to the nearest ER."
+  },
+  {
+    "keywords": ["high fever", "stiff neck", "confusion"],
+    "severity": "hospital",
+    "reasons": [
+      "Combination of fever, neck stiffness, and confusion is a red flag for meningitis.",
+      "Requires urgent assessment at a secondary or tertiary hospital."
+    ],
+    "advice": "Arrange urgent transport to a hospital with inpatient capacity."
+  },
+  {
+    "keywords": ["mild cough", "no fever"],
+    "severity": "self-care",
+    "reasons": [
+      "Symptoms are mild and there are no red-flag indicators.",
+      "Patient can start with rest, fluids, and over-the-counter remedies."
+    ],
+    "advice": "Monitor at home and contact a BHU if symptoms worsen."
+  },
+  {
+    "keywords": ["pregnant", "bleeding"],
+    "severity": "bhu",
+    "reasons": [
+      "Vaginal bleeding in pregnancy requires prompt assessment.",
+      "Closest BHU or women's health clinic should be contacted immediately."
+    ],
+    "advice": "Go to the nearest BHU or maternity clinic for assessment today."
+  }
+]

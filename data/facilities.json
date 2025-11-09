@@ -1,0 +1,65 @@
+[
+  {
+    "id": "karachi_jinnah_postgraduate_medical_centre",
+    "name": "Jinnah Postgraduate Medical Centre",
+    "type": "Medical Centre",
+    "city": "Karachi",
+    "address": "Rafiqui Shaheed Road, Karachi",
+    "services": ["Emergency", "Specialist clinics"],
+    "supports_severity": ["hospital", "emergency"]
+  },
+  {
+    "id": "karachi_aga_khan_university_hospital",
+    "name": "Aga Khan University Hospital",
+    "type": "Hospital",
+    "city": "Karachi",
+    "address": "Stadium Road, Karachi",
+    "services": ["Tertiary care", "Diagnostics"],
+    "supports_severity": ["hospital", "emergency"]
+  },
+  {
+    "id": "lahore_mayo_hospital",
+    "name": "Mayo Hospital",
+    "type": "Hospital",
+    "city": "Lahore",
+    "address": "Anarkali Bazaar, Lahore",
+    "services": ["Emergency", "Inpatient"],
+    "supports_severity": ["hospital", "emergency"]
+  },
+  {
+    "id": "lahore_jinnah_hospital",
+    "name": "Jinnah Hospital",
+    "type": "Hospital",
+    "city": "Lahore",
+    "address": "Allama Shabbir Ahmed Usmani Road, Faisal Town, Lahore",
+    "services": ["Specialist clinics", "Surgery"],
+    "supports_severity": ["hospital"]
+  },
+  {
+    "id": "islamabad_pims",
+    "name": "Pakistan Institute of Medical Sciences",
+    "type": "Hospital",
+    "city": "Islamabad",
+    "address": "Sector G-8/3, Islamabad",
+    "services": ["Emergency", "Specialist care"],
+    "supports_severity": ["hospital", "emergency"]
+  },
+  {
+    "id": "peshawar_lady_reading_hospital",
+    "name": "Lady Reading Hospital",
+    "type": "Hospital",
+    "city": "Peshawar",
+    "address": "Near Grand Trunk (GT) Road, Peshawar",
+    "services": ["Emergency", "Trauma"],
+    "supports_severity": ["hospital", "emergency"]
+  },
+  {
+    "id": "quetta_bolan_medical_complex",
+    "name": "Bolan Medical Complex",
+    "type": "Medical Complex",
+    "city": "Quetta",
+    "address": "Brewery Road, Quetta",
+    "services": ["Inpatient", "Outpatient"],
+    "supports_severity": ["hospital"]
+  }
+]
